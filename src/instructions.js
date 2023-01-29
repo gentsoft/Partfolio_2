@@ -70,7 +70,7 @@ let hoursDate = Math.floor(((andDate - thisDate)/1000/3600) - (24*30*12*yearsDat
 let minutesDate = Math.floor(((andDate - thisDate)/1000/60) - (60*24*30*12*yearsDate + 60*24*30*monthsDate + 60*24*dayDate + 60*hoursDate));
 let secondsDate = Math.floor(((andDate - thisDate)/1000) - (60*60*24*30*12*yearsDate + 60*60*24*30*monthsDate + 60*60*24*dayDate + 60*60*hoursDate + 60*minutesDate));
 
-// spenDate.innerHTML = `${yearsDate}y.${monthsDate}m.${dayDate}d. ${hoursDate}h:${minutesDate}m:${secondsDate}s.`;
+spenDate.innerHTML = `${yearsDate}y.${monthsDate}m.${dayDate}d. ${hoursDate}h:${minutesDate}m:${secondsDate}s.`;
 
 setTimeout(() => {
     shchetaiem()

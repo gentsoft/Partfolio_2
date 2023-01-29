@@ -44,7 +44,7 @@ function Main() {
                 </div>
                 <div class="main__partF__info__con3" style=${main_style_position}>
                     <span>ready to move through: </span>
-                    <span className="main__partF__info__con3_date"></span>
+                    <span class="main__partF__info__con3_date"></span>
                 </div>
                 <div class="main__partF__info__con4" style=${main_style_position}>
                     <span>speciality: </span>
