@@ -61,7 +61,7 @@ jumpHeder();
 
 let spenDate = (document.querySelector('.main__partF__info__con3_date'));
 function shchetaiem() {
-    let andDate = new Date(2024,7,15,0,0,0,0);
+    let andDate = new Date(2024,9,27,0,0,0,0);
 let thisDate = new Date();
 let yearsDate = Math.floor((andDate - thisDate)/1000/3600/24/365);
 let monthsDate = Math.floor(((andDate - thisDate)/1000/3600/24/30)-(12*yearsDate));
